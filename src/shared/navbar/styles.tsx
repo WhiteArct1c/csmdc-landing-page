@@ -15,4 +15,11 @@ export const Nav = styled.nav`
 `
 export const NavButton = styled.li`
    color: white;
+
+   transition: all .3s;
+
+   &:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+   }
 `
