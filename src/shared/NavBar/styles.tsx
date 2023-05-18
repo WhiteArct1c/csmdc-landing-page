@@ -27,6 +27,7 @@ export const Nav = styled.nav`
       }
    }
 `
+
 export const NavButton = styled.li`
 
    transition: all .3s;
