@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import backgroundImage from '../assets/bg_landing_page.png';
 
 export const GlobalStyle = createGlobalStyle`
    *{
@@ -15,6 +16,8 @@ export const GlobalStyle = createGlobalStyle`
    }
 
    body{
-      background-color: #1E1E1E; // TODO: use background-image with the Figma's bg_img
+      background-image: url(${backgroundImage});
+      background-position: top center;
+      background-size: 100% auto;
    }
 `
