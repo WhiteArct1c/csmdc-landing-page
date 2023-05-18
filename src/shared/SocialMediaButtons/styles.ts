@@ -13,7 +13,13 @@ export const Image = styled.figure`
    //TODO: tooltip for the social media buttons
 
    img{
-      margin: 1.20rem 0rem;
-      width: 2.15rem;
+      margin: 1.25rem 0rem;
+      width: 2.25rem;
+      transition: .3s;
+   }
+
+   img:hover{
+      cursor: pointer;
+      transform: scale(1.1);
    }
 `
