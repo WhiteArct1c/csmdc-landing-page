@@ -8,7 +8,7 @@ export const Image = styled.figure`
 
    position: fixed;
    right: 3rem;
-   top:14rem;
+   top:30%;
 
    //TODO: tooltip for the social media buttons
 
