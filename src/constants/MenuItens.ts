@@ -3,5 +3,5 @@ export const MenuItens = [
    "Nosso Produto", 
    "Recompensas",
    "A Equipe",
-   "Inscreva-se",
+   "Vamos jogar!"
 ]
