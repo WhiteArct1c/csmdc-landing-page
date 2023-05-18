@@ -1,3 +1,4 @@
+import { MenuItens } from "./constants/MenuItens";
 import { NavBar } from "./shared/navbar";
 import { GlobalStyle } from "./theme/globalStyles";
 
@@ -8,16 +9,10 @@ function App() {
     <GlobalStyle/>
 
       <NavBar 
-        buttons={[
-            "Sobre o RPG", 
-            "Nossos Produtos", 
-            "Upgrades e Rewards",
-            "A Equipe",
-            "Inscreva-se"
-        ]}
+        buttons={MenuItens}
       />
 
-      
+
     </>
   )
 }
