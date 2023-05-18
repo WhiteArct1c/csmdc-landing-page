@@ -11,7 +11,7 @@ export const NavBar: React.FC<INavbar> = ({buttons}) => {
          {buttons.map((button, index) => {
             return(
                <NavButton key={index}>
-                  {button}
+                  <a href={`#${button.replace(/ /g, '')}`}>{button}</a>
                </NavButton>
             )
          })}
