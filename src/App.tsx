@@ -1,8 +1,23 @@
+import { NavBar } from "./shared/navbar";
+import { GlobalStyle } from "./theme/globalStyles";
+
 function App() {
 
   return (
     <>
-      <h1>Hello World!</h1>
+    <GlobalStyle/>
+
+      <NavBar 
+        buttons={[
+            "Sobre o RPG", 
+            "Nossos Produtos", 
+            "Upgrades e Rewards",
+            "A Equipe",
+            "Inscreva-se"
+        ]}
+      />
+
+      
     </>
   )
 }
