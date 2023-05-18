@@ -15,6 +15,8 @@ export const Nav = styled.nav`
 
    animation: FadeIn 1s backwards;
 
+   z-index: 1;
+
    @keyframes FadeIn {
       from{
          opacity: 0;
