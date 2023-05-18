@@ -14,7 +14,7 @@ export const SocialMediaButtons: React.FC<ISocialMediaButtons> = ({icons}:ISocia
       <Image>
          {icons.map((icon, index) => {
             return (
-               <a key={index} href={icon.linkSocialMedia}>
+               <a key={index} href={icon.linkSocialMedia} target="_blank">
                   <img src={icon.srcIcon} alt={icon.title}/>
                </a>
             );
