@@ -1,5 +1,5 @@
 import { MenuItens } from "./constants/MenuItens";
-import { NavBar } from "./shared/navbar";
+import { NavBar } from "./shared/NavBar";
 import { GlobalStyle } from "./theme/globalStyles";
 
 function App() {
