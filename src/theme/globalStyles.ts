@@ -9,4 +9,8 @@ export const GlobalStyle = createGlobalStyle`
       list-style: none;
       font-family: 'Josefin Sans', sans-serif;
    }
+
+   body{
+      background-color: #1E1E1E; // TODO: use background-image with the Figma's bg_img
+   }
 `
