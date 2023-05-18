@@ -1,9 +1,18 @@
+import { MenuItens } from "./constants/MenuItens";
+import { NavBar } from "./shared/NavBar";
+import { GlobalStyle } from "./theme/globalStyles";
 
 function App() {
 
   return (
     <>
-      <h1>Hello World!</h1>
+    <GlobalStyle/>
+
+      <NavBar 
+        buttons={MenuItens}
+      />
+
+
     </>
   )
 }
