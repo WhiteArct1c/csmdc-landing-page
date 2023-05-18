@@ -1,5 +1,6 @@
 import React from "react";
-import {Nav, NavButton} from "./styles";
+import {Nav, NavButton, Image} from "./styles";
+import LogoNav from '../../assets/Logo_CSMDC.svg';
 
 interface INavbar{
    buttons: string[]
@@ -8,6 +9,11 @@ interface INavbar{
 export const NavBar: React.FC<INavbar> = ({buttons}) => {
    return (
       <Nav>
+         <Image>
+            <a href="#">
+               <img src={LogoNav} alt="Logo do Coroa Sombria"/>
+            </a>
+         </Image>
          {buttons.map((button, index) => {
             return(
                <NavButton key={index}>

@@ -27,3 +27,9 @@ export const NavButton = styled.li`
       color: white;
    }
 `
+
+export const Image = styled.figure`
+   img{
+      width: 3rem;
+   }
+`
