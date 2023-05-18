@@ -12,6 +12,18 @@ export const Nav = styled.nav`
    justify-content: space-evenly;
 
    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.63) 52.6%, transparent 100%);
+
+   animation: FadeIn 1s backwards;
+
+   @keyframes FadeIn {
+      from{
+         opacity: 0;
+      }
+
+      to{
+         opacity: 1;
+      }
+   }
 `
 export const NavButton = styled.li`
 
