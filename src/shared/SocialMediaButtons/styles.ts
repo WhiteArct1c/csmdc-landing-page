@@ -10,7 +10,7 @@ export const Image = styled.figure`
    right: 3rem;
    top:30%;
 
-   //TODO: tooltip for the social media buttons
+   z-index: 1;
 
    img{
       margin: 1.25rem 0rem;
