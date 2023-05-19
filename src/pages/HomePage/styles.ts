@@ -9,7 +9,7 @@ export const Section = styled.section`
    align-items: center;
 
    img{
-      width: 45%;
+      width: 43%;
       margin-right: 2%;
    }
 
