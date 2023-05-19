@@ -1,5 +1,6 @@
 import { MenuItens } from "./constants/MenuItens";
 import { SocialMediaItens } from "./constants/SocialMediaItens";
+import { HomePage } from "./pages/HomePage";
 
 import { NavBar } from "./shared/NavBar";
 import { SocialMediaButtons } from "./shared/SocialMediaButtons";
@@ -18,6 +19,11 @@ function App() {
 
       <SocialMediaButtons
         icons={SocialMediaItens}
+      />
+
+      <HomePage 
+        imgUrl="/src/assets/Logotipo_inicial.png" 
+        title="Logotipo CSMD - banner principal"
       />
 
     </>
