@@ -22,4 +22,16 @@ export const Image = styled.figure`
       cursor: pointer;
       transform: scale(1.1);
    }
+
+   animation: FadeIn 1s backwards;
+
+   @keyframes FadeIn {
+      from{
+         opacity: 0;
+      }
+
+      to{
+         opacity: 1;
+      }
+   }
 `
