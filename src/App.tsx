@@ -1,8 +1,11 @@
 import { MenuItens } from "./constants/MenuItens";
 import { SocialMediaItens } from "./constants/SocialMediaItens";
-import { InitialPhraseItens } from "./constants/PhrasesAndParagraphs";
+import { InitialPhraseItens } from "./constants/InitialPhraseItens";
+import { AboutRpgItens } from "./constants/AboutRpgItens";
+
 import { HomePage } from "./pages/HomePage";
 import { InitialPhrase } from "./pages/InitialPhrase";
+import { AboutRpg } from "./pages/AboutRpg";
 
 import { NavBar } from "./shared/NavBar";
 import { SocialMediaButtons } from "./shared/SocialMediaButtons";
@@ -33,6 +36,16 @@ function App() {
         author={InitialPhraseItens.author}
       />
 
+      <AboutRpg
+        paragraph={{
+          title: AboutRpgItens.paragraph.title,
+          text: AboutRpgItens.paragraph.text
+        }}
+        image={{
+          srcImage: AboutRpgItens.image.srcImage,
+          title: AboutRpgItens.image.title
+        }}
+      />
     </>
   )
 }
