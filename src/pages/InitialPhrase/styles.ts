@@ -28,6 +28,9 @@ export const Author = styled.span`
    line-height: 25px;
    text-align: right;
 
+   padding-right: 1rem;
+   padding-top: 0.5rem;
+
    display: inline-block;
 
    width: 100%;
