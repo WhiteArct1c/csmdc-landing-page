@@ -1,6 +1,6 @@
 import { MenuItens } from "./constants/MenuItens";
 import { SocialMediaItens } from "./constants/SocialMediaItens";
-import { InitialPhraseItens } from "./constants/InitialPhraseItens";
+import { InitialPhraseItens } from "./constants/PhrasesAndParagraphs";
 import { HomePage } from "./pages/HomePage";
 import { InitialPhrase } from "./pages/InitialPhrase";
 
