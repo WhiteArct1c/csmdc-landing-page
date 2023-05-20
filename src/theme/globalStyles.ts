@@ -19,5 +19,12 @@ export const GlobalStyle = createGlobalStyle`
       background-image: url(${backgroundImage});
       background-position: top center;
       background-size: 100% auto;
+
+      scrollbar-width: 0px;
+      scrollbar-color: gray black; 
+   }
+
+   body::-webkit-scrollbar {
+      width: 0px;              
    }
 `
