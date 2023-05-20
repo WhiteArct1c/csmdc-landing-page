@@ -16,7 +16,8 @@ export const Quote = styled.div`
 export const Paragraph = styled.p`
    font-weight: 300;
    font-style: italic;
-   font-size: 1.5rem;
+   font-size: 1.4rem;
+   line-height: 1.2;
    color: white;
    text-align: justify;
 `
