@@ -20,11 +20,20 @@ export const GlobalStyle = createGlobalStyle`
       background-position: top center;
       background-size: 100% auto;
 
-      scrollbar-width: 0px;
-      scrollbar-color: gray black; 
+      scrollbar-width: 12px;
+      scrollbar-color: #1e1e1e black;
    }
 
    body::-webkit-scrollbar {
-      width: 0px;              
+      width: 12px;              
+   }
+
+   body::-webkit-scrollbar-track {
+      background: black;        /* color of the tracking area */
+   }
+
+   body::-webkit-scrollbar-thumb {
+      background-color: #1e1e1e;    /* color of the scroll thumb */
+      border-radius: 20px;  /* creates padding around scroll thumb */
    }
 `
