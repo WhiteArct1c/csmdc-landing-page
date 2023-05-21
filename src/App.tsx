@@ -5,12 +5,12 @@ import { AboutRpgItens } from "./constants/AboutRpgItens";
 
 import { HomePage } from "./pages/HomePage";
 import { InitialPhrase } from "./pages/InitialPhrase";
-import { AboutRpg } from "./pages/AboutRpg";
 
 import { NavBar } from "./shared/NavBar";
 import { SocialMediaButtons } from "./shared/SocialMediaButtons";
 
 import { GlobalStyle } from "./theme/globalStyles";
+import { SectionTextImage } from "./shared/Section[Text,Image]";
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
         author={InitialPhraseItens.author}
       />
 
-      <AboutRpg
+      <SectionTextImage
         paragraph={{
           title: AboutRpgItens.paragraph.title,
           text: AboutRpgItens.paragraph.text
@@ -45,6 +45,7 @@ function App() {
           srcImage: AboutRpgItens.image.srcImage,
           title: AboutRpgItens.image.title
         }}
+        isReversed={false}
       />
     </>
   )

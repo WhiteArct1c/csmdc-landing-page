@@ -1,23 +1,13 @@
 import React from 'react';
 import { Image, Paragraph, ParagraphTitle, Section } from './styles';
 import AOS from 'aos';
-
-interface AboutRpgProps {
-   paragraph: {
-      title: string,
-      text: string
-   },
-   image: {
-      srcImage: string,
-      title: string
-   }
-}
+import { ISectionProps } from '../../types/ISectionProps';
 
 
-export const AboutRpg: React.FC<AboutRpgProps> = ({paragraph, image}) => {
+export const SectionTextImage: React.FC<ISectionProps> = ({paragraph, image, isReversed}) => {
    AOS.init();
    return (
-      <Section>
+      <Section isReversed={isReversed}>
          <Paragraph 
             data-aos="fade-left"
             data-aos-duration="2000"

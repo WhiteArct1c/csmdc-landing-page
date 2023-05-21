@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Section = styled.section`
+interface ISection{
+   isReversed: boolean,
+}
+
+export const Section = styled.section<ISection>`
    width: 100%;
    height: 60vh;
    margin-top: 4rem;
@@ -8,6 +12,7 @@ export const Section = styled.section`
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: ${(props) => props.isReversed ? "row-reverse" : "row"}
 `
 
 export const Image = styled.figure`
@@ -27,7 +32,7 @@ export const Paragraph = styled.p`
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   margin-right: 10rem;
+   margin: 0 5rem;
 `
 
 export const ParagraphTitle = styled.span`
