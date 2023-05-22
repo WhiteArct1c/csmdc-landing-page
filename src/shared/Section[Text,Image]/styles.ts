@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 interface ISection{
-   isReversed: boolean,
+   isReversed: boolean
+}
+
+interface IImage {
+   imgSize?: string
 }
 
 export const Section = styled.section<ISection>`
@@ -15,9 +19,10 @@ export const Section = styled.section<ISection>`
    flex-direction: ${(props) => props.isReversed ? "row-reverse" : "row"}
 `
 
-export const Image = styled.figure`
+export const Image = styled.figure<IImage>`
    img{
-      width: 27rem;
+      width: ${(props) => props.imgSize || "27rem"};
+      margin: 1rem;
    }
 `
 

@@ -1,4 +1,5 @@
 export interface ISectionProps{
+   id: string,
    paragraph: {
       title: string,
       text: string
@@ -8,4 +9,6 @@ export interface ISectionProps{
       title: string
    }
    isReversed: boolean,
+   imgSize?: string,
+   animationStart: string
 }
