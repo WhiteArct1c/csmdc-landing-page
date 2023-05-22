@@ -11,7 +11,7 @@ export const Nav = styled.nav`
    align-items: center;
    justify-content: space-evenly;
 
-   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.63) 52.6%, transparent 100%);
+   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 60%, transparent 100%);
 
    animation: FadeIn 1s backwards;
 
