@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Paragraph, ParagraphTitle, Section } from './styles';
 import AOS from 'aos';
-import { ISectionProps } from '../../types/ISectionProps';
+import { ISectionProps } from '../../types/interfaces/ISectionProps';
 
 
 export const SectionTextImage: React.FC<ISectionProps> = ({id, paragraph, image, isReversed, imgSize, animationStart}) => {
