@@ -2,11 +2,8 @@ import React from 'react';
 import { Author, Paragraph, Quote, SectionContainer } from './styles';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { InitialPhraseProps } from '../../types/interfaces/IInitialPhraseProps';
 
-interface InitialPhraseProps {
-   phrase: string,
-   author: string
-}
 
 export const InitialPhrase: React.FC<InitialPhraseProps> = ({phrase, author}) => {
    AOS.init();

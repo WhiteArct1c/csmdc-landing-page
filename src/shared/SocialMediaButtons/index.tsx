@@ -1,13 +1,6 @@
 import React from "react";
 import { Image } from "./styles";
-
-interface ISocialMediaButtons{
-   icons: {
-      title: string,
-      srcIcon: string,
-      linkSocialMedia: string
-   }[]
-}
+import { ISocialMediaButtons } from "../../types/interfaces/ISocialMediaButtons";
 
 export const SocialMediaButtons: React.FC<ISocialMediaButtons> = ({icons}:ISocialMediaButtons) =>{
    return (

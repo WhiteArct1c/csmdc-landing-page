@@ -1,10 +1,6 @@
 import React from 'react';
 import { Section } from './styles';
-
-interface IHomePageProps {
-   imgUrl: string,
-   title: string
-}
+import { IHomePageProps } from '../../types/interfaces/IHomePageProps';
 
 export const HomePage: React.FC<IHomePageProps> = ({imgUrl, title}) => {
    return (
