@@ -4,7 +4,7 @@ import AOS from 'aos';
 import { ISectionProps } from '../../types/interfaces/ISectionProps';
 
 
-export const SectionTextImage: React.FC<ISectionProps> = ({id, paragraph, image, isReversed, imgSize, animationStart}) => {
+export const SectionComponent: React.FC<ISectionProps> = ({id, paragraph, image, isReversed, imgSize, animationStart}) => {
    AOS.init();
    return (
       <Section isReversed={isReversed} id={id}>

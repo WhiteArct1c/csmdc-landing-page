@@ -10,7 +10,7 @@ interface IImage {
 
 export const Section = styled.section<ISection>`
    width: 100%;
-   height: 60vh;
+   height: 50vh;
    margin-top: 4rem;
 
    display: flex;
@@ -20,9 +20,13 @@ export const Section = styled.section<ISection>`
 `
 
 export const Image = styled.figure<IImage>`
+   margin: 0 0.1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: "50%";
    img{
       width: ${(props) => props.imgSize || "27rem"};
-      margin: 1rem;
    }
 `
 
