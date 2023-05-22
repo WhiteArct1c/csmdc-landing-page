@@ -38,7 +38,7 @@ function App() {
       />
 
       <SectionTextImage
-        id = "Sobre_o_RPG"
+        id = "sobre_o_rpg"
         paragraph={{
           title: AboutRpgItens.paragraph.title,
           text: AboutRpgItens.paragraph.text
@@ -52,7 +52,7 @@ function App() {
       />
 
       <SectionTextImage
-        id = "Nosso_Produto"
+        id = "nosso_produto"
         paragraph={{
           title: OurProduct.paragraph.title,
           text: OurProduct.paragraph.text
