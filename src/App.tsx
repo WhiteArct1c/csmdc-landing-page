@@ -20,11 +20,11 @@ function App() {
     <GlobalStyle/>
 
       <NavBar 
-        buttons={MenuItens}
+        buttons={MenuItens.buttons}
       />
 
       <SocialMediaButtons
-        icons={SocialMediaItens}
+        icons={SocialMediaItens.icons}
       />
 
       <HomePage 
@@ -33,7 +33,7 @@ function App() {
       />
 
       <InitialPhrase
-        phrase={InitialPhraseItens.text}
+        phrase={InitialPhraseItens.phrase}
         author={InitialPhraseItens.author}
       />
 
