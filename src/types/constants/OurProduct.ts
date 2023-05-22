@@ -11,5 +11,5 @@ export const OurProduct: ISectionProps = {
       title: "Image de dois produtos oferecidos pelo CSMDC"
    },
    isReversed: false,
-   animationStart: ""
+   animationStart: "right"
 }

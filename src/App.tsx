@@ -12,6 +12,7 @@ import { SocialMediaButtons } from "./shared/SocialMediaButtons";
 import { GlobalStyle } from "./theme/globalStyles";
 import { SectionTextImage } from "./shared/Section[Text,Image]";
 import { OurProduct } from "./types/constants/OurProduct";
+import { HomePageItens } from "./types/constants/HomePageItens";
 
 function App() {
 
@@ -28,8 +29,8 @@ function App() {
       />
 
       <HomePage 
-        imgUrl="/src/assets/Logotipo_inicial.png" 
-        title="Logotipo CSMD - banner principal"
+        imgUrl={HomePageItens.imgUrl}
+        title={HomePageItens.title}
       />
 
       <InitialPhrase
@@ -38,7 +39,7 @@ function App() {
       />
 
       <SectionTextImage
-        id = "sobre_o_rpg"
+        id = {AboutRpgItens.id}
         paragraph={{
           title: AboutRpgItens.paragraph.title,
           text: AboutRpgItens.paragraph.text
@@ -47,12 +48,12 @@ function App() {
           srcImage: AboutRpgItens.image.srcImage,
           title: AboutRpgItens.image.title
         }}
-        isReversed={false}
-        animationStart="right"
+        isReversed={AboutRpgItens.isReversed}
+        animationStart={AboutRpgItens.animationStart}
       />
 
       <SectionTextImage
-        id = "nosso_produto"
+        id = {OurProduct.id}
         paragraph={{
           title: OurProduct.paragraph.title,
           text: OurProduct.paragraph.text
@@ -61,9 +62,9 @@ function App() {
           srcImage: OurProduct.image.srcImage,
           title: OurProduct.image.title
         }}
-        isReversed={true}
+        isReversed={OurProduct.isReversed}
         imgSize="23rem"
-        animationStart="left"
+        animationStart={OurProduct.animationStart}
       />
     </>
   )

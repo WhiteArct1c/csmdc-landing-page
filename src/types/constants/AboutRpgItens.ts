@@ -11,5 +11,5 @@ export const AboutRpgItens: ISectionProps = {
       title: "Image de dois personagens do RPG em formato retrato"
    },
    isReversed: false,
-   animationStart: "right"
+   animationStart: "left"
 }
