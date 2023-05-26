@@ -1,10 +1,10 @@
 import React from 'react';
 import { IRewardsProps } from '../../types/interfaces/IRewardsProps';
 import { Image, ImageContainer, QRCode, Section } from './styles';
-import { Paragraph, ParagraphTitle } from '../../shared/Section/styles';
+import { Paragraph, ParagraphTitle } from '../../shared/SectionComponent/styles';
 import AOS from 'aos';
 
-const Rewards: React.FC<IRewardsProps> = ({id, title, paragraph, imgSection, qrCodeImage, linkCartase, animationStart}) => {
+export const RewardsComponent: React.FC<IRewardsProps> = ({id, title, paragraph, imgSection, qrCodeImage, linkCartase, animationStart}) => {
    AOS.init();
    return (
       <Section id={id}>
@@ -27,5 +27,3 @@ const Rewards: React.FC<IRewardsProps> = ({id, title, paragraph, imgSection, qrC
       </Section>
    );
 };
-
-export default Rewards;

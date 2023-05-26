@@ -2,7 +2,7 @@ import React from "react";
 import { Image } from "./styles";
 import { ISocialMediaButtons } from "../../types/interfaces/ISocialMediaButtons";
 
-export const SocialMediaButtons: React.FC<ISocialMediaButtons> = ({icons}:ISocialMediaButtons) =>{
+export const SocialMediaButtonsComponent: React.FC<ISocialMediaButtons> = ({icons}:ISocialMediaButtons) =>{
    return (
       <Image>
          {icons.map((icon, index) => {

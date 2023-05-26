@@ -3,17 +3,17 @@ import { SocialMediaItens } from "./types/constants/SocialMediaItens";
 import { InitialPhraseItens } from "./types/constants/InitialPhraseItens";
 import { AboutRpgItens } from "./types/constants/AboutRpgItens";
 
-import { HomePage } from "./pages/HomePage";
-import { InitialPhrase } from "./pages/InitialPhrase";
+import { HomePageComponent } from "./pages/HomePageComponent";
+import { InitialPhraseComponent } from "./pages/InitialPhraseComponent";
 
-import { NavBar } from "./shared/NavBar";
-import { SocialMediaButtons } from "./shared/SocialMediaButtons";
+import { NavBarComponent } from "./shared/NavBarComponent";
+import { SocialMediaButtonsComponent } from "./shared/SocialMediaButtonsComponent";
 
 import { GlobalStyle } from "./theme/globalStyles";
-import { SectionComponent } from "./shared/Section";
+import { SectionComponent } from "./shared/SectionComponent";
 import { OurProduct } from "./types/constants/OurProduct";
 import { HomePageItens } from "./types/constants/HomePageItens";
-import Rewards from "./pages/Rewards";
+import { RewardsComponent } from "./pages/RewardsComponent";
 import { RewardsItens } from "./types/constants/RewardsItens";
 
 function App() {
@@ -22,20 +22,20 @@ function App() {
     <>
     <GlobalStyle/>
 
-      <NavBar 
+      <NavBarComponent 
         buttons={MenuItens.buttons}
       />
 
-      <SocialMediaButtons
+      <SocialMediaButtonsComponent
         icons={SocialMediaItens.icons}
       />
 
-      <HomePage 
+      <HomePageComponent 
         imgUrl={HomePageItens.imgUrl}
         title={HomePageItens.title}
       />
 
-      <InitialPhrase
+      <InitialPhraseComponent
         phrase={InitialPhraseItens.phrase}
         author={InitialPhraseItens.author}
       />
@@ -69,7 +69,7 @@ function App() {
         animationStart={OurProduct.animationStart}
       />
 
-      <Rewards
+      <RewardsComponent
         id = {RewardsItens.id}
         title={RewardsItens.title}
         paragraph={RewardsItens.paragraph}

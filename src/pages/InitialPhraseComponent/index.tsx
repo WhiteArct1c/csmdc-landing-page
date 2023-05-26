@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import { InitialPhraseProps } from '../../types/interfaces/IInitialPhraseProps';
 
 
-export const InitialPhrase: React.FC<InitialPhraseProps> = ({phrase, author}) => {
+export const InitialPhraseComponent: React.FC<InitialPhraseProps> = ({phrase, author}) => {
    AOS.init();
    return (
       <SectionContainer>

@@ -3,7 +3,7 @@ import {Nav, NavButton, Image} from "./styles";
 import LogoNav from '../../assets/Logo_CSMDC.svg';
 import { INavbar } from "../../types/interfaces/INavbar";
 
-export const NavBar: React.FC<INavbar> = ({buttons}) => {
+export const NavBarComponent: React.FC<INavbar> = ({buttons}) => {
    return (
       <Nav>
          <Image>
