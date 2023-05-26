@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
    body{
       background-image: url(${backgroundImage});
       background-position: top center;
+      background-repeat: no-repeat;
       background-size: 100% auto;
 
       scrollbar-width: 12px;
