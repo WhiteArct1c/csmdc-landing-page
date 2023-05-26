@@ -13,6 +13,8 @@ import { GlobalStyle } from "./theme/globalStyles";
 import { SectionComponent } from "./shared/Section";
 import { OurProduct } from "./types/constants/OurProduct";
 import { HomePageItens } from "./types/constants/HomePageItens";
+import Rewards from "./pages/Rewards";
+import { RewardsItens } from "./types/constants/RewardsItens";
 
 function App() {
 
@@ -65,6 +67,16 @@ function App() {
         isReversed={OurProduct.isReversed}
         imgSize={OurProduct.imgSize}
         animationStart={OurProduct.animationStart}
+      />
+
+      <Rewards
+        id = {RewardsItens.id}
+        title={RewardsItens.title}
+        paragraph={RewardsItens.paragraph}
+        imgSection={RewardsItens.imgSection}
+        qrCodeImage={RewardsItens.qrCodeImage}
+        linkCartase={RewardsItens.linkCartase}
+        animationStart={RewardsItens.animationStart}
       />
     </>
   )
