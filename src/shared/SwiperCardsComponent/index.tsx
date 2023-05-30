@@ -9,8 +9,6 @@ import { CardContent, CardsContainer } from './styles';
 import { EffectCards } from "swiper";
 import { SwiperComponentProps } from '../../types/interfaces/ISwiperProps';
 
-
-
 export const SwiperComponent: React.FC<SwiperComponentProps> = ({profiles}) => {
    register();
    return (
