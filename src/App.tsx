@@ -15,6 +15,8 @@ import { OurProduct } from "./types/constants/OurProduct";
 import { HomePageItens } from "./types/constants/HomePageItens";
 import { RewardsComponent } from "./pages/RewardsComponent";
 import { RewardsItens } from "./types/constants/RewardsItens";
+import { TeamComponent } from "./pages/TeamComponent";
+import { TeamItens } from "./types/constants/TeamItens";
 
 function App() {
 
@@ -42,28 +44,36 @@ function App() {
 
       <SectionComponent
         id = {AboutRpgItens.id}
-        paragraph={{
-          title: AboutRpgItens.paragraph.title,
-          text: AboutRpgItens.paragraph.text
-        }}
-        image={{
-          srcImage: AboutRpgItens.image.srcImage,
-          title: AboutRpgItens.image.title
-        }}
+        paragraph={
+          {
+            title: AboutRpgItens.paragraph.title,
+            text: AboutRpgItens.paragraph.text
+          }
+        }
+        image={
+          {
+            srcImage: AboutRpgItens.image.srcImage,
+            title: AboutRpgItens.image.title
+          }
+        }
         isReversed={AboutRpgItens.isReversed}
         animationStart={AboutRpgItens.animationStart}
       />
 
       <SectionComponent
         id = {OurProduct.id}
-        paragraph={{
-          title: OurProduct.paragraph.title,
-          text: OurProduct.paragraph.text
-        }}
-        image={{
-          srcImage: OurProduct.image.srcImage,
-          title: OurProduct.image.title
-        }}
+        paragraph={
+          {
+            title: OurProduct.paragraph.title,
+            text: OurProduct.paragraph.text
+          }
+        }
+        image={
+          {
+            srcImage: OurProduct.image.srcImage,
+            title: OurProduct.image.title
+          }
+        } 
         isReversed={OurProduct.isReversed}
         imgSize={OurProduct.imgSize}
         animationStart={OurProduct.animationStart}
@@ -78,6 +88,14 @@ function App() {
         linkCartase={RewardsItens.linkCartase}
         animationStart={RewardsItens.animationStart}
       />
+
+      <TeamComponent
+        id={TeamItens.id}
+        title={TeamItens.title}
+        paragraph={TeamItens.paragraph}
+        profiles={TeamItens.profiles}
+      />
+      
     </>
   )
 }
