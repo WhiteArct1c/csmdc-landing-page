@@ -23,15 +23,20 @@ const ProfilesItens: ProfilesProps[] = [
     {
       id: 2, 
       name: "Vastor Mundrin", 
-      role: "Criador de CSMDC",
+      role: "Autor e Mestre",
       socialMedia: [
         {
-          title: "", 
-          urlIcon: "",
-          link: ""
+          title: "instagram", 
+          urlIcon: "/src/assets/instagram-167-svgrepo-com.svg",
+          link: "https://www.instagram.com/vastormundrin/"
+        },
+        {
+          title: "tiktok", 
+          urlIcon: "/src/assets/tiktok-svgrepo-com.svg",
+          link: "https://www.tiktok.com/@vastor_mundrin"
         }
       ], 
-      urlAvatar: ""
+      urlAvatar: "/src/assets/Vastor-profile.jpeg"
     },
     {
       id: 3, 

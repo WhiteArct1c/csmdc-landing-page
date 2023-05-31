@@ -26,6 +26,7 @@ export const SwiperComponent: React.FC<SwiperComponentProps> = ({profiles}) => {
                <SwiperSlide key={profile.id}>
                   <CardContent>
                      <Avatar src={profile.urlAvatar} alt={`Foto perfil de ${profile.name}`}/>
+                     <hr/>
                      <ProfileName>{profile.name}</ProfileName>
                      <Role>{profile.role}</Role>
                      <SocialMediaContainer>

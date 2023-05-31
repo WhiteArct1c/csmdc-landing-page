@@ -34,10 +34,18 @@ export const CardContent = styled.div`
    flex-direction: column;
    align-items: center;
    justify-content: center;
+
+   hr{
+      border: thin white solid;
+      border-radius: 100%;
+      width: 5rem;
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+   }
 `
 
 export const Avatar = styled.img`
-   margin-bottom: 1.5rem;
+   margin-bottom: 0.2rem;
    border: 1px white solid;
    padding: 0.5rem;
 
