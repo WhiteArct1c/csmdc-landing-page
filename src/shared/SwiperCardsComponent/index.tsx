@@ -5,14 +5,14 @@ import { register } from 'swiper/element';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import './stylesSwiper.css';
-import { CardContent, CardsContainer } from './styles';
+import { Avatar, CardContent, CardsContainer, ProfileName, Role, SocialMediaContainer } from './styles';
 import { EffectCards } from "swiper";
 import { SwiperComponentProps } from '../../types/interfaces/ISwiperProps';
 
 export const SwiperComponent: React.FC<SwiperComponentProps> = ({profiles}) => {
    register();
    return (
-      <CardsContainer bgColor='orange'>
+      <CardsContainer>
          <Swiper
         effect={"cards"}
         grabCursor={true}
@@ -25,7 +25,18 @@ export const SwiperComponent: React.FC<SwiperComponentProps> = ({profiles}) => {
                <>
                <SwiperSlide key={profile.id}>
                   <CardContent>
-                     <span>{profile.name}</span>
+                     <Avatar src={profile.urlAvatar} alt={`Foto perfil de ${profile.name}`}/>
+                     <ProfileName>{profile.name}</ProfileName>
+                     <Role>{profile.role}</Role>
+                     <SocialMediaContainer>
+                        {profile.socialMedia.map(pSocialMedia => {
+                           return (                             
+                              <a href={pSocialMedia.link} target="_blank" rel="noreferrer">
+                                 <img src={pSocialMedia.urlIcon} alt={pSocialMedia.title}/>
+                              </a>                              
+                           );
+                        })}
+                     </SocialMediaContainer>
                   </CardContent>
                </SwiperSlide>
                </>

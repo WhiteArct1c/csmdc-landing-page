@@ -1,12 +1,12 @@
 import React from 'react';
 import { TeamComponentProps } from '../../types/interfaces/ITeamProps';
-import { Section } from '../RewardsComponent/styles';
 import { Paragraph, ParagraphTitle } from '../../shared/SectionComponent/styles';
 import { SwiperComponent } from '../../shared/SwiperCardsComponent';
+import { SectionContainer } from './styles';
 
 export const TeamComponent: React.FC<TeamComponentProps> = ({id, title, paragraph, profiles}) => {
    return (
-      <Section id={id}>
+      <SectionContainer id={id}>
          <SwiperComponent profiles={profiles}></SwiperComponent>
          <Paragraph>
             <ParagraphTitle>
@@ -14,6 +14,6 @@ export const TeamComponent: React.FC<TeamComponentProps> = ({id, title, paragrap
             </ParagraphTitle>
             {paragraph}
          </Paragraph>
-      </Section>
+      </SectionContainer>
    );
 };
