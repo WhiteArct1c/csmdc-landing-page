@@ -57,7 +57,7 @@ export const Role = styled.span`
 `
 
 export const SocialMediaContainer = styled.div`
-   margin-top: 5rem;
+   margin-top: 3rem;
 
    display: flex;
    align-items: center;
