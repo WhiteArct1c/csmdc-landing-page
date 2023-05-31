@@ -5,6 +5,7 @@ export interface SwiperComponentProps{
 export interface ProfilesProps{
    id: number,
    name: string,
+   role: string,
    urlAvatar: string,
    socialMedia: SocialMedia[]
 }

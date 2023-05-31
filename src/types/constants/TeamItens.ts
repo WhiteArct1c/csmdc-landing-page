@@ -4,36 +4,47 @@ import { ProfilesProps } from "../interfaces/ISwiperProps";
 const ProfilesItens: ProfilesProps[] = [
    {
       id: 1, 
-      name: "Matheus", 
+      name: "WhiteArct1c", 
+      role: "Desenvolvedor e Designer",
       socialMedia: [
         {
-          title: "", 
-          urlIcon: "",
-          link: ""
+          title: "github", 
+          urlIcon: "/src/assets/github-svgrepo-com.svg",
+          link: "https://github.com/WhiteArct1c"
+        },
+        {
+          title: "linkedin", 
+          urlIcon: "/src/assets/linkedin-svgrepo-com.svg",
+          link: "https://github.com/WhiteArct1c"
         }
-      ], urlAvatar: ""
+      ], 
+      urlAvatar: "https://avatars.githubusercontent.com/WhiteArct1c"
     },
     {
       id: 2, 
-      name: "Vastor", 
+      name: "Vastor Mundrin", 
+      role: "Criador de CSMDC",
       socialMedia: [
         {
           title: "", 
           urlIcon: "",
           link: ""
         }
-      ], urlAvatar: ""
+      ], 
+      urlAvatar: ""
     },
     {
       id: 3, 
       name: "Roni", 
+      role: "Ilustrador",
       socialMedia: [
         {
           title: "", 
           urlIcon: "",
           link: ""
         }
-      ], urlAvatar: ""
+      ], 
+      urlAvatar: ""
     }
  ]
 
