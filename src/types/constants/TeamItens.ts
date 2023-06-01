@@ -9,13 +9,18 @@ const ProfilesItens: ProfilesProps[] = [
       socialMedia: [
         {
           title: "github", 
-          urlIcon: "/src/assets/github-svgrepo-com.svg",
+          urlIcon: "/src/assets/icons/github-svgrepo-com.svg",
           link: "https://github.com/WhiteArct1c"
         },
         {
           title: "linkedin", 
-          urlIcon: "/src/assets/linkedin-svgrepo-com.svg",
-          link: "https://github.com/WhiteArct1c"
+          urlIcon: "/src/assets/icons/linkedin-svgrepo-com.svg",
+          link: "https://www.linkedin.com/in/whitearct1c/"
+        },
+        {
+          title: "instagram", 
+          urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
+          link: "https://www.instagram.com/_whitearctic_/"
         }
       ], 
       urlAvatar: "https://avatars.githubusercontent.com/WhiteArct1c"
@@ -27,16 +32,16 @@ const ProfilesItens: ProfilesProps[] = [
       socialMedia: [
         {
           title: "instagram", 
-          urlIcon: "/src/assets/instagram-167-svgrepo-com.svg",
+          urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
           link: "https://www.instagram.com/vastormundrin/"
         },
         {
           title: "tiktok", 
-          urlIcon: "/src/assets/tiktok-svgrepo-com.svg",
+          urlIcon: "/src/assets/icons/tiktok-svgrepo-com.svg",
           link: "https://www.tiktok.com/@vastor_mundrin"
         }
       ], 
-      urlAvatar: "/src/assets/Vastor-profile.jpeg"
+      urlAvatar: "/src/assets/profile-photos/Vastor-profile.jpeg"
     },
     {
       id: 3, 
