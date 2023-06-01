@@ -11,7 +11,7 @@ interface IImage {
 export const Section = styled.section<ISection>`
    width: 100%;
    height: 50vh;
-   margin-top: 4rem;
+   margin-top: 7rem;
 
    display: flex;
    justify-content: center;

@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 
 export const CardsContainer = styled.div`
-   width: 21rem;
-   height: 29rem;
+   width: 18rem;
+   height: 26rem;
    color: white;
 
    display: flex;
@@ -17,7 +17,7 @@ export const CardsContainer = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 50px;
+      border-radius: 45px;
       font-size: 1.5rem;
       font-weight: bold;
       color: #fff;
@@ -30,22 +30,28 @@ export const CardsContainer = styled.div`
 
 export const CardContent = styled.div`
    width: 100%;
+   height: 97%;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
 
+   border: 1px solid #fff;
+   border-radius: 40px;
+
+   margin: 0rem 0.5rem;
+
    hr{
       border: thin white solid;
       border-radius: 100%;
       width: 5rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       margin-top: 1rem;
    }
 `
 
 export const Avatar = styled.img`
-   margin-bottom: 0.2rem;
+   margin: 0.2rem 0rem;
    border: 1px white solid;
    padding: 0.5rem;
 
@@ -56,12 +62,14 @@ export const Avatar = styled.img`
 `
 
 export const ProfileName = styled.span`
-
+   font-weight: 400;
+   font-size: 1.5rem;
 `
 export const Role = styled.span`
    font-weight: 200;
    text-align: center;
-   font-size: 1.4rem;
+   font-size: 1.3rem;
+   margin-top: 0.4rem;
 `
 
 export const SocialMediaContainer = styled.div`
@@ -72,15 +80,16 @@ export const SocialMediaContainer = styled.div`
    justify-content: center;
    gap: 2rem;
 
-   width: 70%;
-   height: 3rem;
+   width: 80%;
+   height: fit-content;
 
    a{
       text-decoration: none;
       color: white;
 
       img{
-         width: 3rem;
+         width: 2.5rem;
+         margin: 0rem 0.5rem;
       }
    }
 `
