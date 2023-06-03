@@ -94,6 +94,7 @@ function App() {
         title={TeamItens.title}
         paragraph={TeamItens.paragraph}
         profiles={TeamItens.profiles}
+        linkForm={TeamItens.linkForm}
       />
       
     </>

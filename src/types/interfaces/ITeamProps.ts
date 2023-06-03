@@ -4,5 +4,6 @@ export interface TeamComponentProps {
    id: string,
    title: string,
    paragraph: string,
-   profiles: ProfilesProps[] 
+   profiles: ProfilesProps[],
+   linkForm: string
 }

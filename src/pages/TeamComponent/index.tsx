@@ -4,7 +4,7 @@ import { SwiperComponent } from '../../shared/SwiperCardsComponent';
 import { Button, ParagraphTeam, SectionContainer, ParagraphTitle } from './styles';
 import AOS from 'aos';
 
-export const TeamComponent: React.FC<TeamComponentProps> = ({id, title, paragraph, profiles}) => {
+export const TeamComponent: React.FC<TeamComponentProps> = ({id, title, paragraph, profiles, linkForm}) => {
    AOS.init();
    return (
       <SectionContainer id={id}>
@@ -16,10 +16,10 @@ export const TeamComponent: React.FC<TeamComponentProps> = ({id, title, paragrap
             data-aos-duration="2000"
          >
             <ParagraphTitle>
-            {title}
+               {title}
             </ParagraphTitle>
             {paragraph}
-            <Button href='#' target='_blank'>
+            <Button href={linkForm} target='_blank'>
                Quero me juntar!
             </Button>
          </ParagraphTeam>
