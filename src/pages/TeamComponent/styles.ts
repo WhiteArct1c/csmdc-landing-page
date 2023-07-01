@@ -13,32 +13,6 @@ export const SectionContainer = styled.section`
    margin-bottom: 10rem;
 `
 
-export const Button = styled.a`
-   width: 15rem;
-   height: 4rem;
-
-   background: linear-gradient(180deg, #FFB548 0%, #C87D0F 100%);
-   margin-top: 2rem;
-
-   border-radius: 1rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
-   font-weight: 400;
-   font-size: 1.4rem;
-
-   transition: .3s all;
-
-   text-decoration: none;
-   color: white;
-
-   &:hover{
-      transform: scale(1.1);
-      cursor: pointer;
-   }
-`
-
 export const ParagraphTeam = styled.p`
    color: white;
    font-weight: 300;
