@@ -21,12 +21,12 @@ export const GlobalStyle = createGlobalStyle`
       background-repeat: no-repeat;
       background-size: 100% auto;
 
-      scrollbar-width: 12px;
+      scrollbar-width: 0px;
       scrollbar-color: #1e1e1e black;
    }
 
    body::-webkit-scrollbar {
-      width: 12px;              
+      width: 0px;              
    }
 
    body::-webkit-scrollbar-track {
