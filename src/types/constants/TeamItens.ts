@@ -51,7 +51,7 @@ const ProfilesItens: ProfilesProps[] = [
         {
           title: "instagram", 
           urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
-          link: "#"
+          link: "https://www.instagram.com/inkroni/"
         }
       ], 
       urlAvatar: "/src/assets/profile-photos/Roni_profilePhoto.jpg"

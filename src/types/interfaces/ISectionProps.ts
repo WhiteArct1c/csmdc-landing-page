@@ -8,7 +8,7 @@ export interface ISectionProps{
       srcImage: string,
       title: string
    }
-   isReversed: boolean,
-   imgSize?: string,
+   isreversed: boolean,
+   imgsize?: string,
    animationStart: string
 }

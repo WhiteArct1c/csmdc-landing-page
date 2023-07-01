@@ -56,7 +56,7 @@ function App() {
             title: AboutRpgItens.image.title
           }
         }
-        isReversed={AboutRpgItens.isReversed}
+        isreversed={AboutRpgItens.isreversed}
         animationStart={AboutRpgItens.animationStart}
       />
 
@@ -74,8 +74,8 @@ function App() {
             title: OurProduct.image.title
           }
         } 
-        isReversed={OurProduct.isReversed}
-        imgSize={OurProduct.imgSize}
+        isreversed={OurProduct.isreversed}
+        imgsize={OurProduct.imgsize}
         animationStart={OurProduct.animationStart}
       />
 

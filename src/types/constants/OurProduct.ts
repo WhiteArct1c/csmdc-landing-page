@@ -10,7 +10,7 @@ export const OurProduct: ISectionProps = {
       srcImage: "/src/assets/Produtos.png",
       title: "Image de dois produtos oferecidos pelo CSMDC"
    },
-   imgSize: "80%",
-   isReversed: true,
+   imgsize: "80%",
+   isreversed: true,
    animationStart: "right"
 }
