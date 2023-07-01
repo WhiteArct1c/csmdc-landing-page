@@ -65,7 +65,7 @@ export const TeamComponent: React.FC<TeamComponentProps> = ({id, title, paragrap
                <iframe 
                   src="https://docs.google.com/forms/d/e/1FAIpQLSeaTjO-U41eIwQCLxj3ZBy9yGI8d1BFkrYasULFnevoHeQNlQ/viewform?embedded=true" 
                   width="550" 
-                  height="800"
+                  height="500"
                >
                   Carregando…
                </iframe>

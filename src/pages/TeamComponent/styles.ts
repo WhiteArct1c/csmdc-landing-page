@@ -9,7 +9,7 @@ export const SectionContainer = styled.section`
    align-items: center;
    justify-content: center;
 
-   margin-top: 10rem;
+   margin-top: 6.8rem;
    margin-bottom: 10rem;
 `
 

@@ -6,7 +6,9 @@ export const SectionContainer = styled.section`
    justify-content: center;
 
    width: 100%;
-   height: 45vh;
+   height: 30vh;
+
+   margin-bottom: 15rem;
 `
 
 export const Quote = styled.div`
