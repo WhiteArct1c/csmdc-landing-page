@@ -3,9 +3,11 @@ import { SectionContainer, Subtitle, Title } from './styles';
 import { IJoinBetaProps } from '../../types/interfaces/IJoinBeatProps';
 import emailjs from '@emailjs/browser';
 import { Input, Button, styled, Box } from '@mui/material';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
-
 
    const [email, setEmail] = useState('');
 
@@ -14,12 +16,23 @@ export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
 
       emailjs.sendForm('service_5u6ytaf', "template_05dkbvl", event.currentTarget, 'fnNNO8pKjCrhZwk1S')
          .then((result) => {
+            toast.success("Seu email foi enviado com sucesso! ", {
+               position: toast.POSITION.TOP_RIGHT,
+               autoClose: 3000,
+               theme: 'dark'
+            });
             console.log(result);
+            setEmail('');
          })
          .catch((error) =>{
+            toast.error("Houve algum erro, tente novamente mais tarde! ", {
+               position: toast.POSITION.TOP_RIGHT,
+               autoClose: 3000,
+               theme: 'dark'
+            });
             console.log(error);
-         });
-      console.log("chegou a enviar");
+         }
+      );
    }
 
    const InputBeta = styled(Input)({
@@ -73,7 +86,8 @@ export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
          >
             <InputBeta
                required
-               placeholder="Digite seu email aqui..." 
+               placeholder="Digite seu email aqui..."
+               name='user_email'
                type={"email"}
                defaultValue={email}
                onBlur={(event) => {
@@ -82,6 +96,7 @@ export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
             /> 
             <ButtonSend type="submit">Enviar!</ButtonSend>
          </Box>
+         <ToastContainer/>
       </SectionContainer>
    );
 };
