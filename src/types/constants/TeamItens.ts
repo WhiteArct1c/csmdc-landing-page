@@ -2,60 +2,60 @@ import { TeamComponentProps } from "../interfaces/ITeamProps";
 import { ProfilesProps } from "../interfaces/ISwiperProps";
 
 const ProfilesItens: ProfilesProps[] = [
-   {
-      id: 1, 
-      name: "WhiteArct1c", 
-      role: "Desenvolvedor e Designer",
-      socialMedia: [
-        {
-          title: "github", 
-          urlIcon: "/src/assets/icons/github-svgrepo-com.svg",
-          link: "https://github.com/WhiteArct1c"
-        },
-        {
-          title: "linkedin", 
-          urlIcon: "/src/assets/icons/linkedin-svgrepo-com.svg",
-          link: "https://www.linkedin.com/in/whitearct1c/"
-        },
-        {
-          title: "instagram", 
-          urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
-          link: "https://www.instagram.com/_whitearctic_/"
-        }
-      ], 
-      urlAvatar: "https://avatars.githubusercontent.com/WhiteArct1c"
-    },
-    {
-      id: 2, 
-      name: "Vastor Mundrin", 
-      role: "Autor e Mestre",
-      socialMedia: [
-        {
-          title: "instagram", 
-          urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
-          link: "https://www.instagram.com/vastormundrin/"
-        },
-        {
-          title: "tiktok", 
-          urlIcon: "/src/assets/icons/tiktok-svgrepo-com.svg",
-          link: "https://www.tiktok.com/@vastor_mundrin"
-        }
-      ], 
-      urlAvatar: "/src/assets/profile-photos/Vastor-profile.jpeg"
-    },
-    {
-      id: 3, 
-      name: "Roni", 
-      role: "Ilustrador",
-      socialMedia: [
-        {
-          title: "instagram", 
-          urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
-          link: "https://www.instagram.com/inkroni/"
-        }
-      ], 
-      urlAvatar: "/src/assets/profile-photos/Roni_profilePhoto.jpg"
-    }
+  {
+    id: 1, 
+    name: "Vastor Mundrin", 
+    role: "Autor e Mestre",
+    socialMedia: [
+      {
+        title: "instagram", 
+        urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
+        link: "https://www.instagram.com/vastormundrin/"
+      },
+      {
+        title: "tiktok", 
+        urlIcon: "/src/assets/icons/tiktok-svgrepo-com.svg",
+        link: "https://www.tiktok.com/@vastor_mundrin"
+      }
+    ], 
+    urlAvatar: "/src/assets/profile-photos/Vastor-profile.jpeg"
+  },
+  {
+    id: 2, 
+    name: "WhiteArct1c", 
+    role: "Desenvolvedor e Designer",
+    socialMedia: [
+      {
+        title: "github", 
+        urlIcon: "/src/assets/icons/github-svgrepo-com.svg",
+        link: "https://github.com/WhiteArct1c"
+      },
+      {
+        title: "linkedin", 
+        urlIcon: "/src/assets/icons/linkedin-svgrepo-com.svg",
+        link: "https://www.linkedin.com/in/whitearct1c/"
+      },
+      {
+        title: "instagram", 
+        urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
+        link: "https://www.instagram.com/_whitearctic_/"
+      }
+    ], 
+    urlAvatar: "https://avatars.githubusercontent.com/WhiteArct1c"
+  },
+  {
+    id: 3, 
+    name: "Roni", 
+    role: "Ilustrador",
+    socialMedia: [
+      {
+        title: "instagram", 
+        urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
+        link: "https://www.instagram.com/inkroni/"
+      }
+    ], 
+    urlAvatar: "/src/assets/profile-photos/Roni_profilePhoto.jpg"
+  }
  ]
 
 export const TeamItens: TeamComponentProps = {
