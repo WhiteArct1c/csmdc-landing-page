@@ -17,8 +17,9 @@ import { RewardsComponent } from "./pages/RewardsComponent";
 import { RewardsItens } from "./types/constants/RewardsItens";
 import { TeamComponent } from "./pages/TeamComponent";
 import { TeamItens } from "./types/constants/TeamItens";
-import { JoinBetaSetion } from "./pages/JoinBetaSection";
+import { JoinBetaComponent } from "./pages/JoinBetaComponent";
 import { JoinBetaItens } from "./types/constants/JoinBetaItens";
+import { Footer } from "./shared/FooterComponent";
 
 function App() {
 
@@ -99,10 +100,11 @@ function App() {
         linkForm={TeamItens.linkForm}
       />
       
-      <JoinBetaSetion
+      <JoinBetaComponent
         id={JoinBetaItens.id}
       />
 
+      <Footer/>
     </>
   )
 }

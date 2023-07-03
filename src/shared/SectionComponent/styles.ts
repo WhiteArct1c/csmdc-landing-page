@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface ISection{
-   isreversed: boolean | string
+   isreversed: boolean
 }
 
 interface IImage {
@@ -16,7 +16,7 @@ export const Section = styled.section<ISection>`
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: ${(props) => props.isreversed ? "row-reverse" : "row"}
+   flex-direction: ${(props: {$isreversed: boolean}) => props.$isreversed ? "row-reverse" : "row"}
 `
 
 export const Image = styled.figure<IImage>`
@@ -26,7 +26,7 @@ export const Image = styled.figure<IImage>`
    align-items: center;
    width: "50%";
    img{
-      width: ${(props) => props.imgsize || "27rem"};
+      width: ${(props: {imgsize: string}) => props.imgsize || "27rem"};
    }
 `
 

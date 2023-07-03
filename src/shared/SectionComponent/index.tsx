@@ -7,7 +7,7 @@ import { ISectionProps } from '../../types/interfaces/ISectionProps';
 export const SectionComponent: React.FC<ISectionProps> = ({id, paragraph, image, isreversed, imgsize, animationStart}) => {
    AOS.init();
    return (
-      <Section isreversed={isreversed.toString()} id={id}>
+      <Section $isreversed={isreversed} id={id}>
          <Paragraph 
             data-aos={`fade-${animationStart}`}
             data-aos-duration="2000"
