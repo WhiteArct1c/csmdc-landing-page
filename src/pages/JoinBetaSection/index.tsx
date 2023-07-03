@@ -4,7 +4,6 @@ import { IJoinBetaProps } from '../../types/interfaces/IJoinBeatProps';
 import emailjs from '@emailjs/browser';
 import { Input, Button, styled, Box } from '@mui/material';
 import { ToastContainer, toast } from 'react-toastify';
-
 import 'react-toastify/dist/ReactToastify.css';
 
 export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
@@ -18,6 +17,7 @@ export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
          .then((result) => {
             toast.success("Seu email foi enviado com sucesso! ", {
                position: toast.POSITION.TOP_RIGHT,
+               hideProgressBar: true,
                autoClose: 3000,
                theme: 'dark'
             });
@@ -27,6 +27,7 @@ export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
          .catch((error) =>{
             toast.error("Houve algum erro, tente novamente mais tarde! ", {
                position: toast.POSITION.TOP_RIGHT,
+               hideProgressBar: true,
                autoClose: 3000,
                theme: 'dark'
             });
