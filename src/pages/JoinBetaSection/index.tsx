@@ -14,24 +14,24 @@ export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
       event.preventDefault();
 
       emailjs.sendForm('service_5u6ytaf', "template_05dkbvl", event.currentTarget, 'fnNNO8pKjCrhZwk1S')
-         .then((result) => {
+         .then(() => {
             toast.success("Seu email foi enviado com sucesso! ", {
                position: toast.POSITION.TOP_RIGHT,
                hideProgressBar: true,
                autoClose: 3000,
                theme: 'dark'
             });
-            console.log(result);
+            //console.log(result);
             setEmail('');
          })
-         .catch((error) =>{
+         .catch(() =>{
             toast.error("Houve algum erro, tente novamente mais tarde! ", {
                position: toast.POSITION.TOP_RIGHT,
                hideProgressBar: true,
                autoClose: 3000,
                theme: 'dark'
             });
-            console.log(error);
+            //console.log(error);
          }
       );
    }
