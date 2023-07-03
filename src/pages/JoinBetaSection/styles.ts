@@ -2,17 +2,19 @@ import { styled } from "styled-components";
 
 export const SectionContainer = styled.section`
    width: 100%;
-   height: 40vh;
+   height: 20rem;
+
+   margin-bottom: 10rem;
 
    display: flex;
    flex-direction: column;
 
    align-items: center;
+   justify-content: space-evenly;
 
    gap: 5rem;
 
-   margin-top: 12rem;
-   margin-bottom: 10rem;
+   padding-top: 2rem;
 
    background: linear-gradient(180deg, #6D161B 0%, #2C0406 100%);
 
@@ -22,22 +24,20 @@ export const SectionContainer = styled.section`
       flex-direction: column;
       align-items: center;
 
-      margin-top: 2rem;
-
       gap: 10px;
    }
 `
 
 export const Title = styled.span`
    color: #FFF;
-   font-size: 3rem;
+   font-size: 2.5rem;
    font-style: normal;
    font-weight: 400;
 `
 
 export const Subtitle = styled.span`
    color: #FFF;
-   font-size: 1.7rem;
+   font-size: 1.5rem;
    font-style: normal;
    font-weight: 300;
 `
