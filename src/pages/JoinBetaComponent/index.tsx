@@ -6,7 +6,7 @@ import { Input, Button, styled, Box } from '@mui/material';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export const JoinBetaSetion: React.FC<IJoinBetaProps> = ({id}) => {
+export const JoinBetaComponent: React.FC<IJoinBetaProps> = ({id}) => {
 
    const [email, setEmail] = useState('');
 
