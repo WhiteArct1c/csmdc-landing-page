@@ -2,8 +2,26 @@ import { TeamComponentProps } from "../interfaces/ITeamProps";
 import { ProfilesProps } from "../interfaces/ISwiperProps";
 
 const ProfilesItens: ProfilesProps[] = [
-   {
+    {
       id: 1, 
+      name: "Vastor Mundrin", 
+      role: "Autor e Mestre",
+      socialMedia: [
+        {
+          title: "instagram", 
+          urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
+          link: "https://www.instagram.com/vastormundrin/"
+        },
+        {
+          title: "tiktok", 
+          urlIcon: "/src/assets/icons/tiktok-svgrepo-com.svg",
+          link: "https://www.tiktok.com/@vastor_mundrin"
+        }
+      ], 
+      urlAvatar: "/src/assets/profile-photos/Vastor-profile.jpeg"
+    },
+   {
+      id: 2, 
       name: "WhiteArct1c", 
       role: "Desenvolvedor e Designer",
       socialMedia: [
@@ -24,24 +42,6 @@ const ProfilesItens: ProfilesProps[] = [
         }
       ], 
       urlAvatar: "https://avatars.githubusercontent.com/WhiteArct1c"
-    },
-    {
-      id: 2, 
-      name: "Vastor Mundrin", 
-      role: "Autor e Mestre",
-      socialMedia: [
-        {
-          title: "instagram", 
-          urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
-          link: "https://www.instagram.com/vastormundrin/"
-        },
-        {
-          title: "tiktok", 
-          urlIcon: "/src/assets/icons/tiktok-svgrepo-com.svg",
-          link: "https://www.tiktok.com/@vastor_mundrin"
-        }
-      ], 
-      urlAvatar: "/src/assets/profile-photos/Vastor-profile.jpeg"
     },
     {
       id: 3, 
