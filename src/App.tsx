@@ -19,6 +19,7 @@ import { TeamComponent } from "./pages/TeamComponent";
 import { TeamItens } from "./types/constants/TeamItens";
 import { JoinBetaComponent } from "./pages/JoinBetaComponent";
 import { JoinBetaItens } from "./types/constants/JoinBetaItens";
+import { Footer } from "./shared/FooterComponent";
 
 function App() {
 
@@ -103,6 +104,7 @@ function App() {
         id={JoinBetaItens.id}
       />
 
+      <Footer/>
     </>
   )
 }
