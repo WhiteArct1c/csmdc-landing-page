@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
       background-image: url(${backgroundImage});
       background-position: top center;
       background-repeat: no-repeat;
-      background-size: 110% auto;
+      background-size: auto;
 
       scrollbar-width: 0px;
       scrollbar-color: #000;
@@ -36,5 +36,11 @@ export const GlobalStyle = createGlobalStyle`
    body::-webkit-scrollbar-thumb {
       background-color: #1e1e1e;    /* color of the scroll thumb */
       border-radius: 20px;  /* creates padding around scroll thumb */
+   }
+
+   @media (min-width:2560px) {
+      body{
+         background-size: 100% auto;
+      }
    }
 `
