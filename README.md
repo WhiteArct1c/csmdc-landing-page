@@ -1,9 +1,11 @@
 <img src="./src/assets/Logotipo_inicial.png" alt='Logotipo do CSMDC' width='800px'/>
-<hr>
+</br>
+
+# Landing Page
 
 ### O Coroa Sombria: Marcas da Convergência é um RPG com um universo sombrio e fascinante, onde os jogadores poderão explorar seus personagens e mergulhar em aventuras intensas.
 
-### Nossa landing page foi desenvolvida com o intuito de atrair novos participantes para testar nosso primeiro GameSystem no FoundryVTT desenvolvimento inteiramente com base no RPG criado.
+### Este repositório contém nossa landing page que foi desenvolvida com o intuito de atrair novos participantes para testar nosso primeiro GameSystem no FoundryVTT desenvolvimento inteiramente com base no RPG criado.
 
 </br>
 
