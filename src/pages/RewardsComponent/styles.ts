@@ -9,6 +9,20 @@ export const Section = styled.section`
    justify-content: center;
    align-items: center;
 
+
+   @media(max-width: 1440px){
+      figure>img{
+         width: 100%;
+      }
+
+      figure>a>img{
+         width: 20%;
+      }
+
+      p{
+         font-size:1.1em!important;
+      }
+   }
    
 `
 

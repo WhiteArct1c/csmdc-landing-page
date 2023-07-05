@@ -9,6 +9,28 @@ export const SectionContainer = styled.section`
    height: 30vh;
 
    margin-bottom: 15rem;
+
+   @media (max-width: 1440px) {
+      p{
+         font-size: 1.2rem;
+      }
+
+      span{
+         font-size: 1.2rem;
+      }
+   }
+
+   @media(max-width: 1024px){
+
+      p{
+         font-size:1em;
+      }
+
+      span{
+         font-size:1em;
+      }
+   }
+
 `
 
 export const Quote = styled.div`
@@ -21,13 +43,13 @@ export const Paragraph = styled.p`
    font-size: 1.4rem;
    line-height: 1.2;
    color: white;
-   text-align: justify;
+   text-align: justify; 
 `
 
 export const Author = styled.span`
    color: white;
    font-weight: 200;
-   font-size: 25px;
+   font-size: 1.6rem;
    line-height: 25px;
    text-align: right;
 

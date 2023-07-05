@@ -16,7 +16,20 @@ export const Section = styled.section<ISection>`
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: ${(props: {$isreversed: boolean}) => props.$isreversed ? "row-reverse" : "row"}
+   flex-direction: ${(props: {$isreversed?: boolean}) => props.$isreversed ? "row-reverse" : "row"};
+
+
+   @media(max-width: 1440px){
+      figure{
+         img{
+            width: 19.5rem;
+         }
+      }
+
+      p{
+         font-size: 1.1rem;
+      }
+   }
 `
 
 export const Image = styled.figure<IImage>`
@@ -26,7 +39,7 @@ export const Image = styled.figure<IImage>`
    align-items: center;
    width: "50%";
    img{
-      width: ${(props: {imgsize: string}) => props.imgsize || "27rem"};
+      width: ${(props: {imgsize?: string}) => props.imgsize || "27rem"};
    }
 `
 
