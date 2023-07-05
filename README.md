@@ -1,4 +1,5 @@
-# Coroa Sombria: Marcas da convergência (Landing Page)
+<img src="./src/assets/Logotipo_inicial.png" alt='Logotipo do CSMDC' width='800px'/>
+<hr>
 
 ### O Coroa Sombria: Marcas da Convergência é um RPG com um universo sombrio e fascinante, onde os jogadores poderão explorar seus personagens e mergulhar em aventuras intensas.
 
@@ -7,7 +8,7 @@
 </br>
 
 # Tech Stack
-<div style="display: flex; justify-content: center; gap: 100px;">
+<div>
    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width='60px' height='60px'/>
    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width='60px' height='60px'/>
    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width='60px' height='60px'/>
