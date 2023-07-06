@@ -39,7 +39,7 @@ export const Image = styled.figure<IImage>`
    align-items: center;
    width: "50%";
    img{
-      width: ${(props: {imgsize?: string}) => props.imgsize || "27rem"};
+      width: ${(props: {$imgsize?: string}) => props.$imgsize || "24rem"};
    }
 `
 

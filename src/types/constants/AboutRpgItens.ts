@@ -10,6 +10,7 @@ export const AboutRpgItens: ISectionProps = {
       srcImage: "/src/assets/Figuras-AboutRpg.png",
       title: "Image de dois personagens do RPG em formato retrato"
    },
+   imgsize: "10%",
    isreversed: false,
    animationStart: "left"
 }

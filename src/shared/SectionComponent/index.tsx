@@ -15,7 +15,7 @@ export const SectionComponent: React.FC<ISectionProps> = ({id, paragraph, image,
             <ParagraphTitle>{paragraph.title}</ParagraphTitle>
             {paragraph.text}
          </Paragraph>
-         <Image imgsize={imgsize}
+         <Image $imgsize={imgsize}
             data-aos={`fade-${animationStart}`}
             data-aos-duration="2000"
          >
