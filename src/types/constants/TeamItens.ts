@@ -1,5 +1,11 @@
 import { TeamComponentProps } from "../interfaces/ITeamProps";
 import { ProfilesProps } from "../interfaces/ISwiperProps";
+import InstagramIcon from '../../assets/icons/instagram-167-svgrepo-com.svg';
+import TiktokIcon from '../../assets/icons/tiktok-svgrepo-com.svg';
+import GithubIcon from '../../assets/icons/github-svgrepo-com.svg';
+import LinkedinIcon from '../../assets/icons/linkedin-svgrepo-com.svg';
+import VastorProfileImage from '../../assets/profile-photos/Vastor-profile.jpeg';
+import RoniProfileImage from '../../assets/profile-photos/roni_perfil.jpg';
 
 const ProfilesItens: ProfilesProps[] = [
   {
@@ -9,16 +15,16 @@ const ProfilesItens: ProfilesProps[] = [
     socialMedia: [
       {
         title: "instagram", 
-        urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
+        urlIcon: InstagramIcon,
         link: "https://www.instagram.com/vastormundrin/"
       },
       {
         title: "tiktok", 
-        urlIcon: "/src/assets/icons/tiktok-svgrepo-com.svg",
+        urlIcon: TiktokIcon,
         link: "https://www.tiktok.com/@vastor_mundrin"
       }
     ], 
-    urlAvatar: "/src/assets/profile-photos/Vastor-profile.jpeg"
+    urlAvatar: VastorProfileImage
   },
   {
     id: 2, 
@@ -27,17 +33,17 @@ const ProfilesItens: ProfilesProps[] = [
     socialMedia: [
       {
         title: "github", 
-        urlIcon: "/src/assets/icons/github-svgrepo-com.svg",
+        urlIcon: GithubIcon ,
         link: "https://github.com/WhiteArct1c"
       },
       {
         title: "linkedin", 
-        urlIcon: "/src/assets/icons/linkedin-svgrepo-com.svg",
+        urlIcon: LinkedinIcon,
         link: "https://www.linkedin.com/in/whitearct1c/"
       },
       {
         title: "instagram", 
-        urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
+        urlIcon: InstagramIcon,
         link: "https://www.instagram.com/_whitearctic_/"
       }
     ], 
@@ -50,11 +56,11 @@ const ProfilesItens: ProfilesProps[] = [
     socialMedia: [
       {
         title: "instagram", 
-        urlIcon: "/src/assets/icons/instagram-167-svgrepo-com.svg",
+        urlIcon: InstagramIcon,
         link: "https://www.instagram.com/inkroni/"
       }
     ], 
-    urlAvatar: "/src/assets/profile-photos/roni_perfil.jpg"
+    urlAvatar: RoniProfileImage
   }
  ]
 

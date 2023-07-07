@@ -1,25 +1,29 @@
 import { ISocialMediaButtons } from "../interfaces/ISocialMediaButtons";
+import DiscordImage from '../../assets/discord_button.svg';
+import InstagramImage from '../../assets/instagram_button.svg';
+import GithubImage from '../../assets/github_button.svg';
+import TwitchImage from '../../assets/Twitch_button.svg';
 
 export const SocialMediaItens:ISocialMediaButtons = {
    icons: [
       {  
          title: "Discord icon",
-         srcIcon: "/src/assets/discord_button.svg",
+         srcIcon: DiscordImage,
          linkSocialMedia: "https://discord.gg/j5AwCjFk6G"
       },
       {
          title: "Instagram icon",
-         srcIcon: "/src/assets/instagram_button.svg",
+         srcIcon: InstagramImage,
          linkSocialMedia: "https://www.instagram.com/coroasombria/"
       },
       {
          title: "Github icon",
-         srcIcon: "/src/assets/github_button.svg",
+         srcIcon: GithubImage,
          linkSocialMedia: "https://github.com/WhiteArct1c/csmdc-landing-page"
       },
       {
          title: "Twitch icon",
-         srcIcon: "/src/assets/Twitch_button.svg",
+         srcIcon: TwitchImage,
          linkSocialMedia: "https://www.twitch.tv/vastor_mundrin"
       }
    ]
