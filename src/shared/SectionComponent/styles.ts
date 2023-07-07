@@ -16,7 +16,7 @@ export const Section = styled.section<ISection>`
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: ${(props: {$isreversed?: boolean}) => props.$isreversed ? "row-reverse" : "row"};
+   flex-direction: ${(props) => props.isreversed ? "row-reverse" : "row"};
 
 
    @media(max-width: 1440px){
@@ -34,12 +34,11 @@ export const Section = styled.section<ISection>`
 
 export const Image = styled.figure<IImage>`
    margin: 0 0.1rem;
-   display: flex;
-   justify-content: center;
+   display: flex;   justify-content: center;
    align-items: center;
    width: "50%";
    img{
-      width: ${(props: {$imgsize?: string}) => props.$imgsize || "24rem"};
+      width: ${(props) => props.imgsize || "24rem"};
    }
 `
 
