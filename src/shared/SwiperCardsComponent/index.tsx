@@ -1,18 +1,16 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { register } from 'swiper/element';
 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import './stylesSwiper.css';
 import { Avatar, CardContent, CardsContainer, ProfileName, Role, SocialMediaContainer } from './styles';
-import { EffectCards } from "swiper";
+import  {EffectCards}  from "swiper/modules";
 import { SwiperComponentProps } from '../../types/interfaces/ISwiperProps';
 import AOS from 'aos';
 
 
 export const SwiperComponent: React.FC<SwiperComponentProps> = ({profiles}) => {
-   register();
    AOS.init();
 
    return (
