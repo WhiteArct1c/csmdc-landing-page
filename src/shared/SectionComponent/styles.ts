@@ -58,7 +58,7 @@ export const Paragraph = styled.p`
    color: white;
    font-weight: 300;
    text-align: justify;
-   font-size: 1.2rem;
+   font-size: 1.3rem;
    line-height: 1.2;
 
    width: 40%;
