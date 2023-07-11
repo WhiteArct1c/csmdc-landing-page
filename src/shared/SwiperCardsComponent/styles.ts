@@ -11,7 +11,8 @@ export const CardsContainer = styled.div`
    text-align: center;
    align-items: center;
 
-   margin-right: 5rem;
+  margin-left: 5rem;
+  margin-right: 2rem;
 
    .swiper-slide {
       display: flex;
@@ -25,6 +26,10 @@ export const CardsContainer = styled.div`
       background: linear-gradient(180deg, #FFB548 0%, #C87D0F 100%);
 
       filter: drop-shadow(11px 0px 4px rgba(0, 0, 0, 0.25));
+   }
+
+   @media(max-width: 1024px){
+      
    }
 `
 

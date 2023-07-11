@@ -9,35 +9,38 @@ export const Section = styled.section`
    justify-content: center;
    align-items: center;
 
+   a{
+      display: inline-block;
+      width: 40rem;
+   }
 
    @media(max-width: 1440px){
-      figure>img{
-         width: 100%;
+      a{
+         width: 27rem;
       }
+   }
 
-      figure>a>img{
-         width: 20%;
+   @media(max-width: 1024px){
+      justify-content: flex-start;
+      a{
+         width: 22rem;
       }
 
       p{
-         font-size:1.1em!important;
+         font-size: 1rem;
+         width: 25rem;
       }
    }
-   
-`
-
-export const ImageContainer = styled.figure`
-   margin: 0 0.1rem;
-   width: "50%";
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   
 `
 
 export const Image = styled.img`
-   width: 34rem;
-   position: relative;
+
+   width: 100%;
+   margin: 0;
+
+   &:hover{
+      transform: scale(1.1);
+   }
 `
 
 export const QRCode = styled.img`
@@ -49,8 +52,11 @@ export const QRCode = styled.img`
 
    transition: all .3s;
 
-   &:hover{
-      transform: scale(1.1);
+  
+
+   @media(max-width: 1440px){
+      width: 22%;
+      left: 38%;
    }
 
 `

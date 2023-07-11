@@ -34,4 +34,10 @@ export const Image = styled.figure`
          opacity: 1;
       }
    }
+
+   @media (max-width: 1024px){
+      img{
+         width: 2rem;
+      }
+   }
 `

@@ -30,6 +30,18 @@ export const Section = styled.section<ISection>`
          font-size: 1.1rem;
       }
    }
+
+   @media(max-width: 1024px){
+      figure{
+         img{
+            width: 16rem;
+         }
+      }
+
+      p{
+         font-size: 1rem;
+      }
+   }
 `
 
 export const Image = styled.figure<IImage>`

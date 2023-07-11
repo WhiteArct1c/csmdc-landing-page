@@ -4,6 +4,5 @@ export interface IRewardsProps {
    paragraph: string,
    linkCartase: string,
    imgSection: string,
-   qrCodeImage: string,
    animationStart: string,
 }
