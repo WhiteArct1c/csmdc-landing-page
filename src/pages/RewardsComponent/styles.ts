@@ -11,7 +11,7 @@ export const Section = styled.section`
 
    a{
       display: inline-block;
-      width: 40rem;
+      width: 32rem;
    }
 
    @media(max-width: 1440px){
@@ -37,6 +37,8 @@ export const Image = styled.img`
 
    width: 100%;
    margin: 0;
+
+   transition: all 0.2s;
 
    &:hover{
       transform: scale(1.1);

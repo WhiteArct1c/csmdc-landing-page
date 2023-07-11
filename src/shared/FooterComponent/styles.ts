@@ -11,4 +11,10 @@ export const FooterContainer = styled.footer`
    p{
       color: #fff;
    }
+
+   @media(max-width: 1024px){
+      p{
+         font-size: 0.9rem;
+      }
+   }
 `

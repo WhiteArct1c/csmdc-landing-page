@@ -26,6 +26,10 @@ export const Nav = styled.nav`
          opacity: 1;
       }
    }
+
+   @media(max-width:1440px){
+      width: 100%;
+   }
 `
 
 export const NavButton = styled.li`
