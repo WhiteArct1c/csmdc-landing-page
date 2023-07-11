@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/effect-cards';
 import './stylesSwiper.css';
 import { Avatar, CardContent, CardsContainer, ProfileName, Role, SocialMediaContainer } from './styles';
-import  {EffectCards}  from "swiper/modules";
+import { EffectCards } from "swiper/modules";
 import { SwiperComponentProps } from '../../types/interfaces/ISwiperProps';
 import AOS from 'aos';
 

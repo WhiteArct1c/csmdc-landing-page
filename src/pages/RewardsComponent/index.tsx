@@ -1,10 +1,10 @@
 import React from 'react';
 import { IRewardsProps } from '../../types/interfaces/IRewardsProps';
-import { Image, ImageContainer, QRCode, Section } from './styles';
+import { Image, Section } from './styles';
 import { Paragraph, ParagraphTitle } from '../../shared/SectionComponent/styles';
 import AOS from 'aos';
 
-export const RewardsComponent: React.FC<IRewardsProps> = ({id, title, paragraph, imgSection, qrCodeImage, linkCartase, animationStart}) => {
+export const RewardsComponent: React.FC<IRewardsProps> = ({ id, title, paragraph, imgSection, linkCartase, animationStart }: IRewardsProps) => {
    AOS.init();
    return (
       <Section id={id}>
@@ -15,15 +15,13 @@ export const RewardsComponent: React.FC<IRewardsProps> = ({id, title, paragraph,
             <ParagraphTitle>{title}</ParagraphTitle>
             {paragraph}
          </Paragraph>
-         <ImageContainer
+         <a href={linkCartase} 
+            target='_blank'
             data-aos={`fade-${animationStart}`}
             data-aos-duration="2000"
          >
             <Image src={imgSection} alt="Imagem dos itens de apoiador do RPG" />
-            <a href={linkCartase} target='_blank'>
-               <QRCode src={qrCodeImage} alt="QR Code para redirecionar para o Cartase" />
-            </a>
-         </ImageContainer>
+         </a>
       </Section>
    );
 };

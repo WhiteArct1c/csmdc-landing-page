@@ -11,6 +11,12 @@ export const SectionContainer = styled.section`
 
    margin-top: 7rem;
    margin-bottom: 10rem;
+
+   @media(max-width:1024px){
+      p{
+         font-size: 1rem;
+      }
+   }
 `
 
 export const ParagraphTeam = styled.p`

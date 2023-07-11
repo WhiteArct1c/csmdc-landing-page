@@ -87,7 +87,6 @@ function App() {
         title={RewardsItens.title}
         paragraph={RewardsItens.paragraph}
         imgSection={RewardsItens.imgSection}
-        qrCodeImage={RewardsItens.qrCodeImage}
         linkCartase={RewardsItens.linkCartase}
         animationStart={RewardsItens.animationStart}
       />

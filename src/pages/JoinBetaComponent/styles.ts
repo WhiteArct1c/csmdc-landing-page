@@ -33,6 +33,10 @@ export const Title = styled.span`
    font-size: 2.5rem;
    font-style: normal;
    font-weight: 400;
+
+   @media(max-width: 1024px){
+      font-size: 2rem;
+   }
 `
 
 export const Subtitle = styled.span`
@@ -40,4 +44,8 @@ export const Subtitle = styled.span`
    font-size: 1.5rem;
    font-style: normal;
    font-weight: 300;
+
+   @media(max-width: 1024px){
+      font-size: 1.1rem;
+   }
 `

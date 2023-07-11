@@ -12,7 +12,7 @@ export const Image = styled.figure`
 
    z-index: 1;
 
-   img{
+   a{
       margin: 1.25rem 0rem;
       width: 2.25rem;
       transition: .3s;
@@ -32,6 +32,18 @@ export const Image = styled.figure`
 
       to{
          opacity: 1;
+      }
+   }
+
+   @media (max-width: 1440px){
+      img{
+         width: 2.5rem;
+      }
+   }
+
+   @media (max-width: 1024px){
+      img{
+         width: 2rem;
       }
    }
 `
