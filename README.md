@@ -21,3 +21,5 @@
 
 # Deploy
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a986ff5e-f9e2-4b9e-a76a-bd87a4e45ad4/deploy-status)](https://app.netlify.com/sites/coroasombria/deploys)
+
