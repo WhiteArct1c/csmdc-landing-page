@@ -18,6 +18,10 @@ export const Section = styled.section`
       a{
          width: 27rem;
       }
+
+      p{
+         font-size: 1.15rem;
+      }
    }
 
    @media(max-width: 1024px){

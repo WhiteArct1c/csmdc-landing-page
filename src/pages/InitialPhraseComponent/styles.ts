@@ -23,11 +23,11 @@ export const SectionContainer = styled.section`
    @media(max-width: 1024px){
 
       p{
-         font-size:1em;
+         font-size:1.2rem;
       }
 
       span{
-         font-size:1em;
+         font-size:1.2rem;
       }
    }
 
@@ -35,6 +35,10 @@ export const SectionContainer = styled.section`
 
 export const Quote = styled.div`
    width: 48rem;
+
+   @media(max-width: 1024px){
+      width: 42rem;
+   }
 `
 
 export const Paragraph = styled.p`

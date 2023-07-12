@@ -29,7 +29,8 @@ export const CardsContainer = styled.div`
    }
 
    @media(max-width: 1024px){
-      
+      width: 17.5rem;
+      height: 25rem;
    }
 `
 

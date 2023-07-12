@@ -18,7 +18,6 @@ export const Section = styled.section<ISection>`
    align-items: center;
    flex-direction: ${(props) => props.isreversed ? "row-reverse" : "row"};
 
-
    @media(max-width: 1440px){
       figure{
          img{
@@ -27,14 +26,14 @@ export const Section = styled.section<ISection>`
       }
 
       p{
-         font-size: 1.1rem;
+         font-size: 1.15rem;
       }
    }
 
    @media(max-width: 1024px){
       figure{
          img{
-            width: 16rem;
+            width: 15rem;
          }
       }
 
