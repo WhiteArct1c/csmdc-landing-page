@@ -16,17 +16,21 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'yarn'
 
+      - name: Install Yarn
+        run: npm install -g yarn
+  
       - name: Install dependencies 📦
-        run: npm install
-
+        run: yarn install --frozen-lockfile
+  
       - name: Build project 🏗️
-        run: npm run build
-
+        run: yarn build
+  
       - name: Upload artifact 📤
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-
-      - name: Configure GitHub Pages 🔧
+  
+      - name: Deploy to GitHub Pages 🚀
         uses: actions/deploy-pages@v4
